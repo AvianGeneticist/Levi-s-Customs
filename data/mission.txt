@@ -125,7 +125,7 @@ mission "Levi Finishing"
 		require "Levi's Tag" 1
 		outfit "Levi's Tag" -1
 		conversation
-			`"Alright, welcome back," Levi says, "Now, let's finish up your ship: You can choose between reinforcing your hull and shields, increasing your weapon capacity, or increasing your engine capacity," He states, "Like the hardpoints, you get to pick three times," He details.`
+			`"Alright, welcome back," Levi says, "Now, let's finish up your ship: You can choose between reinforcing your hull and shields, increasing your weapon capacity, or increasing your engine capacity," He states, "Unlike the hardpoints, you get to pick four times," He details.`
 			`You nod, thinking for a good long moment about what would best suit your new ship.`
 			choice
 				`	"Give her some thicker skin."`
