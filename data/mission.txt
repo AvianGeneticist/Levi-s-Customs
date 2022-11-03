@@ -120,7 +120,7 @@ mission "Levi Opening"
 mission "Levi Finishing"
 	landing
 	repeat
-	source "New Boston"
+	source "Bluestone"
 	on offer
 		require "Levi's Tag" 1
 		outfit "Levi's Tag" -1
