@@ -25,7 +25,7 @@ mission "Levi Opening"
 					goto start
 					
 			label start
-			apply
+			action
 				payment -20000000
 			`"Alright!" He cheers, grabbing a notepad from his desk, "So, for starters, we offer hardpoints in sets of two: Two guns, two turrets, or two bays for fighters. You get to pick up to three pairs of hardpoints to be added do your new ship; we'll handle the logistics," He states.`
 			`You nod, thinking about the hardpoint setup you'd want the most.`
@@ -52,61 +52,61 @@ mission "Levi Opening"
 					goto 1gun1turret1fighter
 					
 			label 3guns
-			apply
+			action
 				give ship "Custom Leviathan (3Guns)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 			
 			label 3turrets
-			apply
+			action
 				give ship "Custom Leviathan (3Turrets)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 3fighters
-			apply
+			action
 				give ship "Custom Leviathan (3Fighters)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 2guns1turret
-			apply
+			action
 				give ship "Custom Leviathan (2Guns1Turret)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 2guns1fighter
-			apply
+			action
 				give ship "Custom Leviathan (2Guns1Fighter)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 1gun2turrets
-			apply
+			action
 				give ship "Custom Leviathan (1Gun2Turrets)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 1gun2fighters
-			apply
+			action
 				give ship "Custom Leviathan (1Gun2Fighters)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 2turrets1fighter
-			apply
+			action
 				give ship "Custom Leviathan (2Turrets1Fighter)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 1turret2fighters
-			apply
+			action
 				give ship "Custom Leviathan (1Turret2Fighters)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
 				
 			label 1gun1turret1fighter
-			apply
+			action
 				give ship "Custom Leviathan (1Gun1Turret1Fighter)" "Custom Leviathan"
 			`"Alright, that's hardpoints," Levi says, nodding slightly in approval.`
 				goto flagship
@@ -136,19 +136,19 @@ mission "Levi Finishing"
 					goto engineone
 					
 			label hullone
-			apply
+			action
 				outfit "Health Increase" 1
 			`"More durability it is. Next pick?" Levi asks.`
 				goto choice2
 				
 			label weaponone
-			apply
+			action
 				outfit "Weapon Increase" 1
 			`"More firepower it is. Next pick?" Levi asks.`
 				goto choice2
 				
 			label engineone
-			apply
+			action
 				outfit "Engine Increase" 1
 			`"More durability it is. Next pick?" Levi asks.`
 				goto choice2
@@ -163,19 +163,19 @@ mission "Levi Finishing"
 					goto enginetwo
 				
 			label hulltwo
-			apply
+			action
 				outfit "Health Increase" 1
 			`"More durability it is. Last pick?" Levi asks.`
 				goto choice2b
 				
 			label weapontwo
-			apply
+			action
 				outfit "Weapon Increase" 1
 			`"More firepower it is. Last pick?" Levi asks.`
 				goto choice2b
 				
 			label enginetwo
-			apply
+			action
 				outfit "Engine Increase" 1
 			`"More durability it is. Last pick?" Levi asks.`
 				goto choice2b
@@ -190,19 +190,19 @@ mission "Levi Finishing"
 					goto enginetwob
 					
 			label hulltwob
-			apply
+			action
 				outfit "Health Increase" 1
 			`"More durability it is. Last pick?" Levi asks.`
 				goto choice3
 				
 			label weapontwob
-			apply
+			action
 				outfit "Weapon Increase" 1
 			`"More firepower it is. Last pick?" Levi asks.`
 				goto choice3
 				
 			label enginetwob
-			apply
+			action
 				outfit "Engine Increase" 1
 			`"More durability it is. Last pick?" Levi asks.`
 				goto choice3
@@ -217,19 +217,19 @@ mission "Levi Finishing"
 					goto enginethree
 				
 			label hullthree
-			apply
+			action
 				outfit "Health Increase" 1
 			`"More durability it is. For your last pick, we offer a choice between cooling tune-up, integrated hull and shield recovery, and an integral energy and fuel reactor," Levi states, "What special augment can I interest you in today?"`
 				goto choice4
 				
 			label weaponthree
-			apply
+			action
 				outfit "Weapon Increase" 1
 			`"More firepower it is. For your last pick, we offer a choice between cooling tune-up, integrated hull and shield recovery, and an integral energy and fuel reactor," Levi states, "What special augment can I interest you in today?"`
 				goto choice4
 				
 			label enginethree
-			apply
+			action
 				outfit "Engine Increase" 1
 			`"More durability it is. For your last pick, we offer a choice between cooling tune-up, integrated hull and shield recovery, and an integral energy and fuel reactor," Levi states, "What special augment can I interest you in today?"`
 				goto choice4
@@ -244,19 +244,19 @@ mission "Levi Finishing"
 					goto reactorone
 					
 			label coolingone
-			apply
+			action
 				outfit "Cooling Augment" 1
 			`"With the coolers installed, she's all yours, captain. One fully customized Leviathan, ready to take on the galaxy," He says with a soft chuckle, firmly shaking your hand after you sign the licensing papers, "If anyone asks, you know where to send 'em," He adds with a wink, chuckling a bit.`
 				decline
 				
 			label healingone
-			apply
+			action
 				outfit "Regeneration Augment" 1
 			`"With the regenerators installed, she's all yours, captain. One fully customized Leviathan, ready to take on the galaxy," He says with a soft chuckle, firmly shaking your hand after you sign the licensing papers, "If anyone asks, you know where to send 'em," He adds with a wink, chuckling a bit.`
 				decline
 				
 			label reactorone
-			apply
+			action
 				outfit "Generator Augment" 1
 			`"With the reactors installed, she's all yours, captain. One fully customized Leviathan, ready to take on the galaxy," He says with a soft chuckle, firmly shaking your hand after you sign the licensing papers, "If anyone asks, you know where to send 'em," He adds with a wink, chuckling a bit.`
 				decline
